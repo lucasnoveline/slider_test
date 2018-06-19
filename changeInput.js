@@ -1,7 +1,7 @@
 function changeInput () {
 	// Coletando valor do slider
 	var slider = document.getElementById("myRange");
-	var slider_value = slider.value;
+	var val = slider.value;
 
 	// Convertendo em data
 	if (val < 17) {
