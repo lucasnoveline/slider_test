@@ -35,6 +35,7 @@ function changeInput () {
 	for (i = 0; i < tables.length; i++) { 
 	    var group = tables[i].id;
 	    var frame = "<iframe width='300' height='200' frameborder='0' scrolling='no' src='https://lucasnoveline.github.io/tables_test2?file_path=" + group + "/" + data + ".json' align='middle'></iframe>";
+	    console.log(frame);
 	    tables[i].innerHTML = frame;
 }
 }
