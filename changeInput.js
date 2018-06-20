@@ -42,4 +42,5 @@ function changeInput () {
 		    console.log(frame);
 		    tables[i].innerHTML = frame;
 		}
+	}
 }
