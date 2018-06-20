@@ -43,4 +43,15 @@ function changeInput () {
 		    tables[i].innerHTML = frame;
 		}
 	}
+	// Modificando tabela de grupos
+	var tables = document.getElementsByClassName("tables");
+	var i;
+
+	// Para cada tabela de grupos
+	for (i = 0; i < tables.length; i++) { 
+	    var group = tables[i].id;
+	    var frame = "<iframe width='300' height='200' frameborder='0' scrolling='no' src='https://lucasnoveline.github.io/worldcup2018_posts/Acompanhamento/Tabelas_grupos/?file_path=" + group + "/" + data + ".json' align='middle'></iframe>";
+	    console.log(frame);
+	    tables[i].innerHTML = frame;
+	}
 }
