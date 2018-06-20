@@ -15,7 +15,7 @@ function changeInput () {
 		var data = '07.' + dia;
 		var show = dia + ' de Julho';
 	}
-	output.innerHTML = data;
+	output.innerHTML = show;
 
 	// Caso de click no Slider
 	slider.oninput = function() {
@@ -30,7 +30,7 @@ function changeInput () {
 			var data = '07.' + dia;
 			var show = dia + ' de Julho';
 		}
-		output.innerHTML = data;
+		output.innerHTML = show;
 		// Modificando tabela de grupos
 		var tables = document.getElementsByClassName("tables");
 		var i;
